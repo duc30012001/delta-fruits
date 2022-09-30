@@ -1,0 +1,293 @@
+/* =================== CSS =======================  */
+#checkout {
+    font-size: 14px;
+}
+
+.banner {
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.wrap {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1em;
+    font-size: 14px;
+    max-width: 40em;
+    margin: 0 auto;
+}
+/* ======================== WITH MIN-WIDTH < 1000px ================================== */
+/* ======= HEADER ========== */
+
+.shop__name {
+    line-height: 1.12;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* ========== ASIDE ============= */
+.order-summary-toggle {
+    background: #fafafa;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1.25em 0;
+    text-align: left;
+    width: 100%;
+    outline: none;
+}
+
+.order-summary-toggle__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-summary-toggle__text {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.order-summary-toggle__total-recap {
+    font-size: 1.12em;
+    line-height: 1em;
+    font-weight: 600;
+    color: #2a9dcc;
+}
+
+/* =============== RESPONSIVE ==================== */
+@media (min-width: 1000px) {
+    .banner {
+        display: none;
+    }
+
+    .order-summary-toggle {
+        display: none;
+    }
+}
+
+/* ======================= WITH MIN_WIDTH > 1000px =========================== */
+.main .logo {
+    display: none;
+}
+
+.content,
+.content .wrap,
+.main,
+.main__content,
+.step,
+.content > form {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+/* ============ FORM ================= */
+.main__header {
+    padding-bottom: 1.5em;
+}
+
+.order-summary__section {
+    padding-top: 1em;
+
+    padding-bottom: 1em;
+}
+
+.section__header {
+    margin-bottom: 12px;
+}
+
+.alert {
+    position: relative;
+    padding: 12px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert--info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.content-box {
+    border: 1px solid #cecdcd;
+    background: #fff;
+    background-clip: padding-box;
+    border-radius: 5px;
+    color: #545454;
+}
+
+.content-box__row {
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 1em;
+}
+
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.radio__input,
+.checkbox__input {
+    white-space: nowrap;
+    padding-right: 0.75em;
+}
+
+#checkout .content-box input {
+    opacity: 1 !important;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+label.radio__label {
+    height: 23px;
+}
+
+/* ================= SIDEBAR =================== */
+#checkout .sidebar__header {
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#checkout .sidebar {
+    position: relative;
+}
+
+#checkout .sidebar::after {
+    content: "";
+    display: block;
+    width: 300%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    background: #fafafa;
+    z-index: -1;
+    box-shadow: 0 -1px 0 #e1e1e1 inset;
+}
+
+.field__input-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field__input-btn {
+    width: auto;
+    margin-left: 0.85714em;
+    white-space: nowrap;
+}
+
+#checkout .product-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+#checkout .product-thumbnail__quantity {
+    font-size: 0.78em;
+    white-space: nowrap;
+    padding: 0 0.62em;
+    border-radius: 2em;
+    background-color: #2a9dcc;
+    color: #fff;
+    position: absolute;
+    right: -0.9em;
+    top: -0.55em;
+    z-index: 3;
+    box-sizing: border-box;
+    min-width: 1.75em;
+    height: 1.75em;
+    text-align: center;
+    line-height: 1.75em;
+}
+
+#checkout .product-table tbody th,
+.stock-table tbody th {
+    padding-left: 1em;
+    font-weight: 500;
+    color: #333;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.product__description {
+    text-align: left;
+    width: 100%;
+}
+
+.product-table td:first-child,
+.stock-table td:first-child {
+    padding-left: 0;
+}
+
+.payment-due__price {
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1em;
+    color: #2a9dcc;
+}
+
+/* =============== RESPONSIVE =================== */
+
+@media (min-width: 1000px) {
+    .main .logo {
+        display: block;
+    }
+
+    .content .wrap {
+        flex-direction: row;
+    }
+
+    #checkout .sidebar__header {
+        display: block;
+    }
+
+    .wrap {
+        padding: 0 2em;
+        max-width: 95em;
+    }
+
+    #checkout .main {
+        width: 52%;
+        padding: 2em 2em 0 2em;
+    }
+
+    #checkout .sidebar {
+        width: 32%;
+    }
+
+    #checkout .sidebar__header,
+    #checkout .sidebar__content {
+        padding-left: 2em;
+    }
+
+    #checkout .sidebar::after {
+        left: 0;
+        background-position: left top;
+        -webkit-box-shadow: 1px 0 0 #e1e1e1 inset;
+        box-shadow: 1px 0 0 #e1e1e1 inset;
+    }
+
+    /* ========= FORM =============== */
+    .animate-floating-labels {
+        display: flex;
+    }
+
+    .logo--left {
+        text-align: left;
+    }
+}

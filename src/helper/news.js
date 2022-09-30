@@ -1,0 +1,93 @@
+import duahau from "../static/images/news/dua-hau-41-800x600.png";
+import rau from "../static/images/news/cach-nhan-biet-rau-an-toan-0.png";
+import hoaqua from "../static/images/news/nav-fruits.png";
+import bapcai from "../static/images/news/healthiest-fruits-to-eat.png";
+
+const news = [
+    {
+        id: 1,
+        path: "/news/meo-chon-dua-hau-ngon-tram-qua-nhu-mot",
+        image: duahau,
+        title: "Mẹo chọn dưa hấu ngon trăm quả như một",
+        des: "Dưa hấu có rất nhiều tác dụng như giải khát, tiêu độc, giàu dược tính... được nhiều người ưa thích. Tuy nhiên, nếu ...",
+        author: "Đào Quý Thương",
+        date: "02/10/2018",
+        content: [
+            "Dưa hấu có rất nhiều tác dụng như giải khát, tiêu độc, giàu dược tính... được nhiều người ưa thích. Tuy nhiên, nếu không chọn khéo, bạn dễ mua phải quả dưa non, cùi dày, không ngọt. Mẹo chọn dưa hấu ngon, trăm quả như một trong bài viết dưới đây sẽ khiến bạn tự tin hơn khi mua thứ quả này.",
+            "Dưa càng chín thì vỏ dưa càng nhẵn. Với loại có vân thì các vân phải rõ ràng. Nếu quả vỏ đen thì màu sắc phải đen sẫm, có ánh. Ngoài ra, để biết chất lượng bên trong quả dưa, nên dùng ngón tay ấn vào vỏ dưa. Nếu quả dưa cứng là loại chất lượng, nếu vỏ mềm thì không nên mua.",
+            "Dùng tay vỗ vào quả dưa, nếu quả dưa phát ra tiếng kêu đanh, chắc là dưa già, dưa chín. Nếu quả dưa phát ra tiếng nhẹ, bộp bộp là quả dưa bị non, hoặc chín nẫu bên trong.",
+            "Dưa đã chín là dưa có cuống khô, héo. Nếu cuống dưa màu xanh lá, quả dưa này đã được hái quá sớm và chưa chín.",
+            "Núm dưa",
+            "Núm của quả dưa hấu ngon thường tròn đều và hơi lõm xuống.",
+            "Cân nặng",
+            "Khi chọn dưa hấu, hãy nhấc quả dưa lên và áng chừng cân nặng. Quả nào càng nhỏ mà càng nặng thì chứng tỏ quả dưa đó càng già, ngon, mọng nước. Nếu dưa nhẹ hơn so với khoảng ước lượng thì không nên mua vì rất có thể đó sẽ là quả dưa bị xốp.",
+            "Đây là khu vực thường tiếp xúc với mặt đất nên hay có màu vàng. Nếu chúng có màu vàng hoặc vàng cam chứ không phải màu trắng, đó là quả dưa hấu ngon.",
+        ],
+        tags: ["tư vấn", "sức khoẻ"],
+    },
+    {
+        id: 2,
+        path: "/news/chuyen-gia-huong-dan-chon-rau-cu-qua-an-toan",
+        image: rau,
+        title: "Chuyên gia hướng dẫn chọn rau, củ, quả an toàn",
+        des: "Ngày tết, nhu cầu sử dụng rau, củ, quả tăng nhanh. Do vậy, một số đối tượng sử dụng hóa chất cấm, thuốc bảo vệ thực ...",
+        author: "Đào Quý Thương",
+        date: "02/10/2018",
+        content: [
+            "Dưa hấu có rất nhiều tác dụng như giải khát, tiêu độc, giàu dược tính... được nhiều người ưa thích. Tuy nhiên, nếu không chọn khéo, bạn dễ mua phải quả dưa non, cùi dày, không ngọt. Mẹo chọn dưa hấu ngon, trăm quả như một trong bài viết dưới đây sẽ khiến bạn tự tin hơn khi mua thứ quả này.",
+            "Dưa càng chín thì vỏ dưa càng nhẵn. Với loại có vân thì các vân phải rõ ràng. Nếu quả vỏ đen thì màu sắc phải đen sẫm, có ánh. Ngoài ra, để biết chất lượng bên trong quả dưa, nên dùng ngón tay ấn vào vỏ dưa. Nếu quả dưa cứng là loại chất lượng, nếu vỏ mềm thì không nên mua.",
+            "Dùng tay vỗ vào quả dưa, nếu quả dưa phát ra tiếng kêu đanh, chắc là dưa già, dưa chín. Nếu quả dưa phát ra tiếng nhẹ, bộp bộp là quả dưa bị non, hoặc chín nẫu bên trong.",
+            "Dưa đã chín là dưa có cuống khô, héo. Nếu cuống dưa màu xanh lá, quả dưa này đã được hái quá sớm và chưa chín.",
+            "Núm dưa",
+            "Núm của quả dưa hấu ngon thường tròn đều và hơi lõm xuống.",
+            "Cân nặng",
+            "Khi chọn dưa hấu, hãy nhấc quả dưa lên và áng chừng cân nặng. Quả nào càng nhỏ mà càng nặng thì chứng tỏ quả dưa đó càng già, ngon, mọng nước. Nếu dưa nhẹ hơn so với khoảng ước lượng thì không nên mua vì rất có thể đó sẽ là quả dưa bị xốp.",
+            "Đây là khu vực thường tiếp xúc với mặt đất nên hay có màu vàng. Nếu chúng có màu vàng hoặc vàng cam chứ không phải màu trắng, đó là quả dưa hấu ngon.",
+        ],
+        tags: ["tư vấn", "sức khoẻ"],
+    },
+    {
+        id: 3,
+        path: "/news/7-cach-chon-hoa-qua-tuoi-ngon-nhat",
+        image: hoaqua,
+        title: "7 Cách chọn hoa quả tươi ngon nhất",
+        des: "Một vài mẹo nhỏ sau đây sẽ giúp các bà nội trợ chọn được các loại trái cây phổ biến như bơ, dưa hấu, xoài, táo, chọ...",
+        author: "Đào Quý Thương",
+        date: "02/10/2018",
+        content: [
+            "Dưa hấu có rất nhiều tác dụng như giải khát, tiêu độc, giàu dược tính... được nhiều người ưa thích. Tuy nhiên, nếu không chọn khéo, bạn dễ mua phải quả dưa non, cùi dày, không ngọt. Mẹo chọn dưa hấu ngon, trăm quả như một trong bài viết dưới đây sẽ khiến bạn tự tin hơn khi mua thứ quả này.",
+            "Dưa càng chín thì vỏ dưa càng nhẵn. Với loại có vân thì các vân phải rõ ràng. Nếu quả vỏ đen thì màu sắc phải đen sẫm, có ánh. Ngoài ra, để biết chất lượng bên trong quả dưa, nên dùng ngón tay ấn vào vỏ dưa. Nếu quả dưa cứng là loại chất lượng, nếu vỏ mềm thì không nên mua.",
+            "Dùng tay vỗ vào quả dưa, nếu quả dưa phát ra tiếng kêu đanh, chắc là dưa già, dưa chín. Nếu quả dưa phát ra tiếng nhẹ, bộp bộp là quả dưa bị non, hoặc chín nẫu bên trong.",
+            "Dưa đã chín là dưa có cuống khô, héo. Nếu cuống dưa màu xanh lá, quả dưa này đã được hái quá sớm và chưa chín.",
+            "Núm dưa",
+            "Núm của quả dưa hấu ngon thường tròn đều và hơi lõm xuống.",
+            "Cân nặng",
+            "Khi chọn dưa hấu, hãy nhấc quả dưa lên và áng chừng cân nặng. Quả nào càng nhỏ mà càng nặng thì chứng tỏ quả dưa đó càng già, ngon, mọng nước. Nếu dưa nhẹ hơn so với khoảng ước lượng thì không nên mua vì rất có thể đó sẽ là quả dưa bị xốp.",
+            "Đây là khu vực thường tiếp xúc với mặt đất nên hay có màu vàng. Nếu chúng có màu vàng hoặc vàng cam chứ không phải màu trắng, đó là quả dưa hấu ngon.",
+        ],
+        tags: ["tư vấn", "sức khoẻ"],
+    },
+    {
+        id: 4,
+        path: "/news/13-cong-dung-it-biet-cua-bap-cai",
+        image: bapcai,
+        title: "13 công dụng ít biết của bắp cải",
+        des: "Thành phần dinh dưỡng và lượng vitamin trong bắp cải nhiều gấp 4,5 lần so với cà rốt và 3,6 lần so với khoai tây. Ng...",
+        author: "Đào Quý Thương",
+        date: "02/10/2018",
+        content: [
+            "Dưa hấu có rất nhiều tác dụng như giải khát, tiêu độc, giàu dược tính... được nhiều người ưa thích. Tuy nhiên, nếu không chọn khéo, bạn dễ mua phải quả dưa non, cùi dày, không ngọt. Mẹo chọn dưa hấu ngon, trăm quả như một trong bài viết dưới đây sẽ khiến bạn tự tin hơn khi mua thứ quả này.",
+            "Dưa càng chín thì vỏ dưa càng nhẵn. Với loại có vân thì các vân phải rõ ràng. Nếu quả vỏ đen thì màu sắc phải đen sẫm, có ánh. Ngoài ra, để biết chất lượng bên trong quả dưa, nên dùng ngón tay ấn vào vỏ dưa. Nếu quả dưa cứng là loại chất lượng, nếu vỏ mềm thì không nên mua.",
+            "Dùng tay vỗ vào quả dưa, nếu quả dưa phát ra tiếng kêu đanh, chắc là dưa già, dưa chín. Nếu quả dưa phát ra tiếng nhẹ, bộp bộp là quả dưa bị non, hoặc chín nẫu bên trong.",
+            "Dưa đã chín là dưa có cuống khô, héo. Nếu cuống dưa màu xanh lá, quả dưa này đã được hái quá sớm và chưa chín.",
+            "Núm dưa",
+            "Núm của quả dưa hấu ngon thường tròn đều và hơi lõm xuống.",
+            "Cân nặng",
+            "Khi chọn dưa hấu, hãy nhấc quả dưa lên và áng chừng cân nặng. Quả nào càng nhỏ mà càng nặng thì chứng tỏ quả dưa đó càng già, ngon, mọng nước. Nếu dưa nhẹ hơn so với khoảng ước lượng thì không nên mua vì rất có thể đó sẽ là quả dưa bị xốp.",
+            "Đây là khu vực thường tiếp xúc với mặt đất nên hay có màu vàng. Nếu chúng có màu vàng hoặc vàng cam chứ không phải màu trắng, đó là quả dưa hấu ngon.",
+        ],
+        tags: ["tư vấn", "sức khoẻ"],
+    },
+];
+
+export default news;

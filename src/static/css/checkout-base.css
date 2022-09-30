@@ -1,0 +1,141 @@
+/* ================ BASE ====================== , */
+#checkout a,
+.icon-print {
+    color: #2a9dcc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#checkout a:hover,
+.icon-print:hover {
+    color: #2a6395;
+}
+
+#checkout svg {
+    background-color: #333;
+}
+
+.col {
+    padding: 0px 15px;
+}
+
+svg.spinner-loader {
+    display: none;
+}
+
+#checkout table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    width: 100%;
+    margin: 0;
+}
+
+#checkout table,
+#checkout th,
+#checkout td {
+    border: none;
+    padding: 0;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    width: 2px;
+    height: 2px;
+    margin: -2px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+#checkout .section__title,
+#checkout .sidebar__title {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.layout-flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.layout-flex__item--stretch {
+    flex: 1 1 auto;
+}
+
+.layout-flex--row-reverse {
+    flex-direction: row-reverse;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkout .btn {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #357ebd;
+    border-color: #2f71a9;
+    background-clip: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    height: 46px;
+    text-align: center;
+    position: relative;
+}
+
+#checkout .btn--large {
+    font-size: 1.1rem;
+}
+#checkout .btn--disabled {
+    opacity: 0.6;
+}
+#checkout .btn:hover {
+    background-color: #2a6395;
+    border-color: #225179;
+    color: #fff;
+}
+
+@media (min-width: 1000px) {
+    .col--two {
+        width: 50%;
+    }
+}
+
+.field__input-wrapper {
+    position: relative;
+}
+
+/* .floating-labels .field__label {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    margin-top: 0.4em;
+    margin-left: 1px;
+    padding: 0 0.8em;
+    color: #999;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    font-size: 1em;
+    transform: translateY(6px);
+} */
+
+td:first-child,
+th:first-child {
+    padding-left: 0;
+    text-align: left;
+}

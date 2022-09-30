@@ -1,0 +1,229 @@
+@media (min-width: 768px) {
+    .fa-plus {
+        display: none;
+    }
+}
+
+.fa-plus {
+    float: right;
+}
+
+/* ----------------- HEADER ------------------------- */
+@media (max-width: 1199px) {
+    .logo-main {
+        position: absolute;
+    }
+}
+
+/* ------------------ FOOTER --------------------- */
+.fa-angle-down,
+.fa-angle-right {
+    background-color: #82bf00;
+}
+
+.footer__social__icon {
+    color: red;
+}
+
+.mid-footer .social_footer .follow_option li a {
+    background-color: #959595;
+}
+
+.title-menu a .fa-plus svg {
+    background-color: #959595;
+    width: 22px;
+    height: 22px;
+}
+
+.contactfooter__address {
+    display: inline-block !important;
+    line-height: 32px;
+}
+
+/* SIDEBAR */
+.filter-item--check-box span label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.filter-item--check-box input,
+input.input-custom {
+    opacity: 1;
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+/* Products -> sortPagiBar */
+.sort-menu__item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+input.input-custom {
+    margin-top: -10px;
+}
+
+/* Control Swiper */
+.control-swiper,
+.related-products__control-swiper {
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+
+.control-swiper button {
+    border: none;
+    margin-left: 5px;
+    background-color: #82bf00;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+}
+
+/* ============= Quick View ================== */
+#thumblist_quickview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quickview__thumbs li {
+    width: 60px;
+    border: 2px solid #eaebf3;
+    cursor: pointer;
+}
+
+.quickview__thumbs li:hover {
+    border: 2px solid #82bf00;
+}
+
+.active-thumb {
+    border: 2px solid #82bf00 !important;
+}
+
+.btn_num {
+    cursor: pointer;
+}
+
+.fa.fa-times {
+    background-color: red;
+}
+
+#quick-view-product .fancybox-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*  */
+.related-products {
+    position: relative;
+}
+
+.related-products .control-swiper {
+    top: -35px;
+}
+
+/* detail product */
+.details-product__thumb img {
+    border: 2px solid #eaebf3;
+    width: 100%;
+}
+
+.details-product__thumb-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.details-product__thumb-list-item {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #eaebf3;
+    cursor: pointer;
+}
+
+.details-product__thumb-list-item:hover {
+    border: 2px solid #82bf00;
+}
+
+@media (min-width: 1200px) {
+    .details-product__thumb-list-item {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.tab-link {
+    margin-right: 5px;
+}
+
+/* ===================== ADD TO CART MODAL ========================= */
+.popup_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.modal-dialog {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* ================ HOME =================== */
+.home__al:hover {
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+.item_product_main .product-main-list-mini {
+    margin: 0 !important;
+    display: flex;
+}
+
+.product-thumbnail .image_thumb {
+    height: auto !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .product-mini-item {
+        height: auto !important;
+    }
+}
+
+.section_deal_bestsale .aside-item .aside-title h2.title-head {
+    font-size: 26px !important;
+    margin-bottom: 25px;
+    margin-top: 15px !important;
+}
+
+.banner-wide img {
+    height: auto !important;
+}
+
+.section_deal_bestsale .related-products .control-swiper {
+    top: -50px;
+}
+
+/* ==================== HEADER CART LIST ====================== */
+.remove-item-cart {
+    border: none;
+    font-weight: 700;
+    font-size: 20px !important;
+    background-color: transparent;
+}
+
+input.input-text.number-sidebar {
+    min-height: unset;
+}
